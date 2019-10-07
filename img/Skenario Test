@@ -1,0 +1,17 @@
+Skenario test :
+
+Unit Testing
+
+    Pengujian terhadap class TheMealDB pada method fetchMealList,  fetchDetailMeals & searchMeals untuk memastikan apakah url yang digenerate sesuai dengan keinginan atau tidak
+
+Instumentation Testing
+
+Pengujian terhadap activity main untuk memastikan apakah:
+
+    terdapat 3 tombol BottomNavigationView dan ketiga tombol tersebut dapat diklik dan menampilkan activity sesuai dengan keinginan atau tidak
+
+    dapat membukan Detail Meals event
+
+    dapat menambahkan event ke Favorit
+
+    dapat menghapus event dari Favorit

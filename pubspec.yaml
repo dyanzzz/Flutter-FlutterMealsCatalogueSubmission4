@@ -1,0 +1,41 @@
+name: meals_catalogue_submission4_fl
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.18.0
+  http: ^0.12.0+1
+  toast: ^0.1.4
+  sqflite: ^1.0.0
+  path_provider: ^0.4.1
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  build_runner: ^1.0.0
+  test: ^1.5.3
+  mockito: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - img/logo-small.png
+    - img/meal-icon.png
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
