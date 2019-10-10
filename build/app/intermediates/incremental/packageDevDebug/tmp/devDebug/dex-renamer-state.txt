@@ -1,0 +1,4 @@
+#Fri Oct 11 06:07:47 WIB 2019
+base.0=/Users/it-hyundai/Flutter/meals_catalogue_submission4_fl/build/app/intermediates/transforms/dexMerger/dev/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

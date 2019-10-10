@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:meals_catalogue_submission4_fl/src/launcher/meals_app.dart';
 import '../models/meals.dart';
 import '../blocs/meals_list_bloc.dart';
 import '../hero/hero_animation.dart';
-import '../app.dart';
 import 'detail_screen.dart';
 import 'package:toast/toast.dart';
 import 'package:meals_catalogue_submission4_fl/src/common/meals_key.dart';

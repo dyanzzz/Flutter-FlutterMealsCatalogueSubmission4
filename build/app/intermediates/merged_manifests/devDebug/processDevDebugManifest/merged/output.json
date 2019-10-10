@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0.0-dev","enabled":true,"outputFile":"app-dev-debug.apk","fullName":"devDebug","baseName":"dev-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.flutter.meals_catalogue_submission4_fl.dev.dev","split":"","minSdkVersion":"16"}}]

@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PRO" type="FlutterRunConfigurationType" factoryName="Flutter" singleton="false">
+    <option name="buildFlavor" value="pro" />
+    <option name="filePath" value="$PROJECT_DIR$/lib/src/launcher/meals_production.dart" />
+    <method v="2" />
+  </configuration>
+</component>

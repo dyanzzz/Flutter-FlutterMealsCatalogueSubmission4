@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/it-hyundai/Flutter/meals_catalogue_submission4_fl/build/app/intermediates/res/merged/pro/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/it-hyundai/Flutter/meals_catalogue_submission4_fl/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "351"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "413"
+                    }
+                },
+                {
+                    "source": "/Users/it-hyundai/Flutter/meals_catalogue_submission4_fl/android/app/src/pro/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,14 +1,9 @@
-import 'package:meals_catalogue_submission4_fl/src/launcher/meals_config.dart';
-import 'meals_app.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  var configuredApp = AppConfig(
-    appDisplayName: "Meals Development",
-    isDebug: true,
-    appInternalId: 1,
-    child: MyApp(),
-  );
+import 'meals_config.dart';
+import 'meals_app.dart';
 
-  runApp(configuredApp);
+void main() {
+  Config.appFlavor = Flavor.DEV;
+  return runApp(MyApp());
 }

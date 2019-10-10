@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:meals_catalogue_submission4_fl/src/launcher/meals_app.dart';
 import 'package:meals_catalogue_submission4_fl/src/models/meals.dart';
 import 'package:meals_catalogue_submission4_fl/src/resources/local/favorite_provider.dart';
 import 'package:meals_catalogue_submission4_fl/src/hero/hero_animation.dart';
 import 'package:toast/toast.dart';
-import '../../app.dart';
 import 'package:meals_catalogue_submission4_fl/src/view/detail_screen.dart';
 import 'package:meals_catalogue_submission4_fl/src/common/meals_key.dart';
 

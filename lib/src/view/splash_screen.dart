@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:meals_catalogue_submission4_fl/src/app.dart';
+import 'package:meals_catalogue_submission4_fl/src/launcher/meals_app.dart';
 
 
 class SplashScreen extends StatefulWidget {

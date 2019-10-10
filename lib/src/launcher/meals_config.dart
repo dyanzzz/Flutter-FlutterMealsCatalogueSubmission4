@@ -1,18 +1,38 @@
 import 'package:flutter/material.dart';
 
-class AppConfig extends InheritedWidget {
+enum Flavor {
+  DEV,
+  PRO,
+}
 
-  AppConfig({this.isDebug, this.appDisplayName, this.appInternalId, Widget child})
-      : super(child: child);
+class Config {
+  static Flavor appFlavor;
 
-  final bool isDebug;
-  final String appDisplayName;
-  final int appInternalId;
-
-  static AppConfig of(BuildContext context) {
-    return context.inheritFromWidgetOfExactType(AppConfig);
+  static String get appString {
+    switch (appFlavor) {
+      case Flavor.DEV:
+        return 'DEVELOPMENT';
+        break;
+      case Flavor.PRO:
+        return 'PRODUCTION';
+        break;
+      default:
+        return 'THE MEALS CATALOG';
+        break;
+    }
   }
 
-  @override
-  bool updateShouldNotify(InheritedWidget oldWidget) => false;
+  static Icon get appIcon {
+    switch (appFlavor) {
+      case Flavor.DEV:
+        return Icon(Icons.developer_mode);
+        break;
+      case Flavor.PRO:
+        return Icon(Icons.new_releases);
+        break;
+      default:
+        return Icon(Icons.android);
+        break;
+    }
+  }
 }
