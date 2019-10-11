@@ -1,5 +1,0 @@
-com.flutter.meals_catalogue_submission4_fl.pro.pro
-drawable launch_background
-mipmap ic_launcher
-string app_name
-style LaunchTheme
